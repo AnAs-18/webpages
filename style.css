@@ -1,6 +1,8 @@
 
 body {
-  background-color: red;
+  background-color: white;
+  padding-left: 50px 50px;
+  color: black;
   margin: 0;
  }
 
@@ -14,6 +16,20 @@ body {
 }
 #main-image-Fornite {
   text-align: center;
+}
+
+#menu {
+  list-style: none;
+  border: thin solid blue;
+  padding: 0;
+
+}
+
+#menu > li {
+  border: thin solid blue;
+  display: inline-grid;
+  padding: 10px;
+
 }
 
 .grid-container {
